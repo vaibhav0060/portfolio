@@ -7,8 +7,8 @@ import Resume from "../Resume/Resume";
 import Contact from "../contact/Contact";
 // import { BrowserRouter } from "react-ro";
 import { BrowserRouter } from "react-router-dom";
-import { Route, NavLink } from "react-router-dom";
-
+// import { Route } from "react-router-dom";
+// NavLink
 export default class Portfolio extends Component {
   render() {
     return (
@@ -18,18 +18,18 @@ export default class Portfolio extends Component {
 
           <Nav />
           <IntroImg />
-          <Route path="/about" component={About} />
+          {/* <Route path="/about" component={About} /> */}
 
-          {/* <About /> */}
-          <Route path="/Portfolio" component={MyPortfolio} exact />
+          <About />
+          {/* <Route path="/Portfolio" component={MyPortfolio} exact /> */}
 
-          {/* <MyPortfolio /> */}
-          <Route path="/Resume" component={Resume} exact />
+          <MyPortfolio />
+          {/* <Route path="/Resume" component={Resume} exact /> */}
 
-          {/* <Resume /> */}
-          <Route path="/Contact" component={Contact} exact />
+          <Resume />
+          {/* <Route path="/Contact" component={Contact} exact /> */}
 
-          {/* <Contact /> */}
+          <Contact />
         </div>
       </BrowserRouter>
     );

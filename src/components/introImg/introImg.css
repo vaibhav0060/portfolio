@@ -1,0 +1,142 @@
+.introImg {
+  /* width: 705px; */
+  height: 280px;
+  background-image: url(../../images/filter-bg.jpg);
+  display: flex;
+  justify-content: space-around;
+}
+.img {
+  margin-left: -234px;
+  width: 36%;
+  background-image: url(../../images/undraw_version_control_re_mg66.svg);
+  /* background-image: url(../images/undraw_version_control_re_mg66.svg); */
+  /* background-image: url(../images/undraw_web_developer_re_h7ie.svg); */
+  background-repeat: no-repeat;
+  background-size: 349px 325px;
+}
+.buttons {
+  cursor: pointer;
+  display: flex;
+}
+intro {
+  width: 70%;
+  margin-top: 25px;
+  margin-left: 57px;
+  /* margin-left: px; */
+}
+.nameInIntro {
+  font-weight: 500;
+  color: #fca738;
+  font-size: 30px;
+  margin: 36px 0px 0px 0px;
+}
+.developer {
+  color: #fbf3e4;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 4px 10px;
+}
+.lastPara {
+  color: #fbf3e4;
+  font-size: 15px;
+  margin: 35px -10px 21px -13px;
+}
+.buttonsInIntro {
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+}
+.hireMe {
+  height: 44px;
+  width: 100px;
+  background-color: #09bead;
+  color: #fbf3e4;
+  border: 3px solid #09bead;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0px 30px 0px 30px;
+  box-shadow: 0px 3px 6px #0bbead69;
+}
+.getResume {
+  height: 44px;
+  width: 120px;
+  background-color: #fca738;
+  color: #fbf3e4;
+  border: 3px solid #fca738;
+  border-radius: 10px;
+  /* box-shadow: 0px 3px 6px #fca738; */
+  cursor: pointer;
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 340px) and (max-width: 620px) {
+  .introImg {
+    width: 195vw;
+    height: 280px;
+    background-image: url(../../images/filter-bg.jpg);
+    display: flex;
+    justify-content: space-around;
+  }
+  .img {
+    margin-left: -234px;
+    width: 36%;
+    background-image: url(../../images/undraw_version_control_re_mg66.svg);
+    /* background-image: url(../images/undraw_version_control_re_mg66.svg); */
+    /* background-image: url(../images/undraw_web_developer_re_h7ie.svg); */
+    background-repeat: no-repeat;
+    background-size: 349px 325px;
+  }
+  .buttons {
+    cursor: pointer;
+    display: flex;
+  }
+  intro {
+    width: 70%;
+    margin-top: 25px;
+    margin-left: 57px;
+    /* margin-left: px; */
+  }
+  .nameInIntro {
+    font-weight: 500;
+    color: #fca738;
+    font-size: 30px;
+    margin: 36px 0px 0px 0px;
+  }
+  .developer {
+    color: #fbf3e4;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 4px 10px;
+  }
+  .lastPara {
+    color: #fbf3e4;
+    font-size: 15px;
+    margin: 35px -10px 21px -13px;
+  }
+  .buttonsInIntro {
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+  }
+  .hireMe {
+    height: 44px;
+    width: 100px;
+    background-color: #09bead;
+    color: #fbf3e4;
+    border: 3px solid #09bead;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px 30px 0px 30px;
+    box-shadow: 0px 3px 6px #0bbead69;
+  }
+  .getResume {
+    height: 44px;
+    width: 120px;
+    background-color: #fca738;
+    color: #fbf3e4;
+    border: 3px solid #fca738;
+    border-radius: 10px;
+    /* box-shadow: 0px 3px 6px #fca738; */
+    cursor: pointer;
+  }
+}

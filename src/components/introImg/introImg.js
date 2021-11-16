@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import web.png from "../images";
 import "./introImg.css";
+import { Link } from "react-scroll";
 export default class IntroImg extends Component {
   render() {
     return (
@@ -10,8 +11,30 @@ export default class IntroImg extends Component {
           <p className="developer">A Front-end Developer</p>
           <p className="lastPara">Get ready to turn ideas into reality</p>
           <div className="buttonsInIntro">
-            <button className="hireMe">Hire Me</button>
-            <button className="getResume">Get Resume</button>
+            <button className="hireMe">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Hire Me
+              </Link>
+            </button>
+            <button className="getResume">
+              <Link
+                activeClass="active"
+                to="resume"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Get Resume
+              </Link>
+            </button>
           </div>
         </div>
         <div className="img">

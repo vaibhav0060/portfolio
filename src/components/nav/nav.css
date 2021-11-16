@@ -23,6 +23,7 @@ li {
   margin: 0px 26px;
   color: #424242;
   cursor: pointer;
+  /* background-color: #fbf3e4; */
 }
 li:hover {
   color: orange;
@@ -30,6 +31,13 @@ li:hover {
 .buttons {
   width: 60%;
 }
+.active {
+  color: orange;
+  background-color: #fbf3e4;
+}
+/* a {
+  background-color: #fbf3e4;
+} */
 /* <a href='https://pngtree.com/so/web'>web png from pngtree.com/</a> */
 /* .icon {
   display: none;
@@ -158,14 +166,14 @@ li:hover {
   color: black;
 }  */
 
-.buttons a.active {
+/* .buttons a.active {
   background-color: #04aa6d;
   color: white;
 }
 
 .buttons .icon {
   display: none;
-}
+} */
 /* 
 .buttons {
   overflow: hidden;

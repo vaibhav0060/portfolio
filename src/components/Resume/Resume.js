@@ -6,7 +6,9 @@ export default class Resume extends Component {
     return (
       <div>
         <div className="resumeMain">
-          <p className="heading">Resume</p>
+          <p className="heading" id="resume">
+            Resume
+          </p>
           <div className="resume">
             <div className="first">
               <p className="experience">Work Experience</p>

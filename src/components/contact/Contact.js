@@ -12,7 +12,9 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        <p className="contactHead">Contact Me</p>
+        <p className="contactHead" id="contact">
+          Contact Me
+        </p>
         <div className="contact">
           <div className="details">
             <div className="connectText">

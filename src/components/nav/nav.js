@@ -39,7 +39,7 @@ export default class Nav extends Component {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-10}
                 duration={500}
               >
                 About

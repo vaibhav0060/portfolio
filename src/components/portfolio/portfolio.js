@@ -5,10 +5,12 @@ import IntroImg from "../introImg/introImg";
 import MyPortfolio from "../my portfolio/myPortfolio";
 import Resume from "../Resume/Resume";
 import Contact from "../contact/Contact";
+import "./portfolio.css";
 // import { BrowserRouter } from "react-ro";
 import { BrowserRouter } from "react-router-dom";
 // import { Route } from "react-router-dom";
 // NavLink
+// import { Link } from "react-scroll";
 export default class Portfolio extends Component {
   render() {
     return (

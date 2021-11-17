@@ -21,7 +21,7 @@ export default class About extends Component {
           {/* <img src={about} alt="aboutimg" /> */}
         </div>
         <div className="aboutText">
-          <p className="aboutHead">About Me</p>
+          <p className="aboutHead" id="about">About Me</p>
           <p>
             I'm a web designer & front-end developer . I'm interested in all
             kinds of visual communication, but my major focus is on designing

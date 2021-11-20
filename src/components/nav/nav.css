@@ -1,6 +1,11 @@
 .nav {
   display: flex;
   /* flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
+  /* position: fixed;
+      top: 0;
+      width: 100%;
+      background: antiquewhite; */
 }
 .name {
   color: #105652;

@@ -67,6 +67,11 @@ intro {
   /* box-shadow: 0px 3px 6px #fca738; */
   cursor: pointer;
 }
+.getResume a {
+  color: white;
+  text-decoration: none;
+  color: white;
+}
 /* ////////////////////////////////////////////////////////////////// */
 
 @media (min-width: 340px) and (max-width: 620px) {
@@ -87,7 +92,7 @@ intro {
     background-size: 349px 325px;
   }
   .buttons {
-    cursor: pointer;
+    /* cursor: pointer; */
     display: flex;
   }
   intro {

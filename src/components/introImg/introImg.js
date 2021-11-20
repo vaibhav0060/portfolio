@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import web.png from "../images";
 import "./introImg.css";
+import ResumePdf from "../Resume/resumePdf/Vaibhav's Resume.pdf";
 import { Link } from "react-scroll";
 export default class IntroImg extends Component {
   render() {
@@ -24,16 +25,19 @@ export default class IntroImg extends Component {
               </Link>
             </button>
             <button className="getResume">
-              <Link
-                activeClass="active"
-                to="resume"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
+              {/* <Link
+              //   activeClass="active"
+              //   to="resume"
+              //   spy={true}
+              //   smooth={true}
+              //   offset={-70}
+              //   duration={500}
+              // >
+              //   Get Resume
+              // </Link> */}
+              <a href={ResumePdf} download="Resume">
                 Get Resume
-              </Link>
+              </a>
             </button>
           </div>
         </div>
